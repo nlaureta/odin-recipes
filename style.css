@@ -1,5 +1,7 @@
+
 .center {
     text-align: center;
+    margin:0 auto;
 }
 
 html {
@@ -20,47 +22,35 @@ div{
 }
 
 .table-image{
-    min-width: 1000px;
+    min-width: 1200px;
+    width:80%;
+    height:800px;
+    margin-bottom:-550px;
 }
 
 .picture-style {
-    width: 300px;
+    width: 350px;
     height: auto;
     border-radius: 20px;
+    margin:20px;
 }
 
-.page-padding{
-    padding:0px 50px 0px 50px;
-}
 hr{
     width: 95%;
 }
 
-.top {
-    position: absolute;
-    top: 20%;
-    left: 40%;
-  }
-  
-  .bottom {
-    position: absolute;
-    top: 100%;
-    left: 40%;
-  }
+.container{
+    /* display:inline-block; */
+    width:56%;
+    margin: auto;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
 
-.centered {
-    position: absolute;
-    top: 60%;
-    left: 40%;
-  }
+.food-text{
+    text-align: center;
+}
 
-  .right {
-    float: right;
-  }
-
-  .left {
-    float:left;
-  }
 
 /* https://stackoverflow.com/questions/27842326/how-do-i-add-a-vertical-line-separating-the-two-columns */
 .border-right {
@@ -70,7 +60,7 @@ hr{
 
 /* https://coder-coder.com/display-divs-side-by-side/ */
 .grid-container {
-    display: grid;
+    display: inline-block;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
